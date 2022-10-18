@@ -8,30 +8,32 @@ public class Main {
         String[] perrudos = {"nudera", "kof", "chico", "punky", "momesno"};
         System.out.println(perrudos[3]);
 
-        String[] newPerrudos = new String[6];
-        for (int i = 0; 1 < perrudos.length; i++) {
-            newPerrudos[i] = perrudos[i];
-        }
-            newPerrudos[5] = "perra";
+        ArrayList<String> newPerrudos = new ArrayList<>();
 
 
-            ArrayList<String> perrudos2 = new ArrayList<>();
-            List<String> students = new ArrayList<>();
-            perrudos2.add("punky");
-            perrudos2.add("nudera");
+//        for (int i = 0; 1 < perrudos.length; i++) {
+//                newPerrudos[i] = perrudos[i];
+//        }
+//            newPerrudos[5] = "perra";
 
-            System.out.println(perrudos2);
-            System.out.println(perrudos2.get(0));
 
-            perrudos2.add(2, "chico");
-            perrudos2.add(3, "kof");
-
-            System.out.println(perrudos2);
-            System.out.println(perrudos2.size());
-
-            // perrudos2.clear(); //this methos clrear the list
-            perrudos2.remove("nudera"); //requires string of the elemnet
-            System.out.println(perrudos2);
+//            ArrayList<String> perrudos2 = new ArrayList<>();
+//            List<String> students = new ArrayList<>();
+////            perrudos2.add("punky");
+////            perrudos2.add("nudera");
+//
+//            System.out.println(perrudos2);
+//            System.out.println(perrudos2.get(0));
+//
+//            perrudos2.add(2, "chico");
+//            perrudos2.add(3, "kof");
+//
+//            System.out.println(perrudos2);
+//            System.out.println(perrudos2.size());
+//
+//            // perrudos2.clear(); //this methos clrear the list
+//            perrudos2.remove("nudera"); //requires string of the elemnet
+//            System.out.println(perrudos2);
 
 
             ArrayList<Integer> nums = new ArrayList<Integer>();
@@ -75,7 +77,7 @@ public class Main {
             System.out.println(perrudosEmailList.containsValue("chara@google.com"));
 
             ArrayList<Perrudo> perrudosClass = new ArrayList<>();
-
+perrudosClass.add(new PerrudosClass);
         }
 
     }
